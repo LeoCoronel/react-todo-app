@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: #C6FFDD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.App {
+  text-align: center;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+form {
+  width: 350px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.todo-input {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;;
+}
+
+.todo-button {
+  height: 30px;
+  width: 30px;
+  background: #f7797d;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.filter-todo {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.todo {
+  display: flex;
+  margin: 10px;
+  width: 280px;
+  justify-content: space-between;
+}
+
+.todo-item {
+  font-size: 1.5em;
+  color: rgb(90, 69, 69);
+}
+
+.complete-btn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: rgb(10, 233, 10);
+  border-radius: 5px;
+}
+
+.trash-btn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fa4545;
+}
